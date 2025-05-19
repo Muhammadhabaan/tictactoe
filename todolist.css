@@ -1,0 +1,63 @@
+#h1 {
+    font-family:Hanalei fill;
+    font-size: 3em;
+    color: #38393a;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin: 85px;
+    background:linear-gradient(#DBD5A4, #649173);
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 6.5px;
+}
+
+
+
+.cell {
+    font-family: Hanalei;
+    font-size: 60px;
+    color: rgb(0, 255, 64);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: hsl(120, 1%, 19%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 5.5px #210b0bdc;
+}
+
+
+
+
+#message {
+    display: flex;
+    flex-direction: row;
+    font-family: Hanalei fill;
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: rgb(23, 24, 23);
+}
+
+#resetButton 
+{
+    font-family: Hanalei fill;
+    background-color: hsl(120, 1%, 19%);
+    color: rgb(43, 227, 89);
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 2em;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px
+}
